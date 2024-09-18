@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.flag-outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+}
+
+.flag-circle {
+  height: 60%;
+  width: 40%;
+  border-radius: 100%;
+  background-color: red;
+}
